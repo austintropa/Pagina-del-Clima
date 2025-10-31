@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5dvh;
+    transition: all 0.3s ease;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9fc5f8;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 2dvh;
+    transition: all 0.3s ease;
+}
+
+header h1 {
+    letter-spacing: -1px;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    transition: all 0.3s ease;
+}
+
+header nav {
+    display: flex;
+    gap: 80px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22dvh;
+    margin-right: 22dvh;
+    margin-bottom: 2dvh;
+}
+
+#pre-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2dvh;
+    border-bottom: solid 3px #000000;
+    transition: all 0.3s ease;
+    margin-bottom: 2dvh;
+}
+
+#pre-header h2 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+#pre-header div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+#pre-header div p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+#pre-header div select {
+    padding: 3px;
+    width: 10dvh;
+    border: solid 2px #000000;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    outline: none;
+}
+
+#pre-header div select:hover {
+    box-shadow: 0.5dvh 0.5dvh  black;
+    outline: none;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 3dvh;
+    margin-bottom: 1dvh;
+    transition: all 0.3s ease;
+}
+
+#contain {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2dvh;
+    transition: all 0.3s ease;
+}
+
+.cages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6d6d6;
+    padding: 1dvh;
+    border-radius: 10px;
+    width: 35dvh;
+    transition: all 0.3s ease;
+    padding-bottom: 3.5dvh;
+}
+
+.cages div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3dvh;
+    transition: all 0.3s ease;
+}
+
+.cages img {
+    width: 25dvh;
+    height: auto;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    margin-bottom: 2dvh;
+}
+
+.cages span {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 2dvh;
+    transition: all 0.3s ease;
+}
+
+.p-red {
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 1dvh;
+    transition: all 0.3s ease;
+}
+
+.p-blue {
+    color: #0000ff;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 1dvh;
+    transition: all 0.3s ease;
+}
+
+
+
+.acept-coockies {
+    display: flex;
+    position: fixed;
+    left: 23%;
+    bottom: 5dvh;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d1d1d1;
+    border: solid 3px #000000;
+    padding: 2dvh;
+}
+
+.acept-coockies img {
+    width: 10dvh;
+    height: auto;
+    margin-right: 2dvh;
+    transition: all 0.3s ease;
+}
+
+.acept-coockies p {
+    color: #000000;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    width: 80dvh;
+}
+
+.acept-coockies p span {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #0051ff;
+}
+
+.acept-coockies button {
+    background-color: #9fc5f8;
+    border: solid 2px #000000;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 2dvh;
+    margin-left: 2dvh;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.acept-coockies button:hover {
+    background-color: #6fa1f7;
+    box-shadow: 0.5dvh 0.5dvh  black;
+}
+
+
+
+
